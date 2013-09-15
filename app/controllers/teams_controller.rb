@@ -7,6 +7,7 @@ def edit
 end
 
 def show
+    @team = Team.find(params[:id]);
 end
 
 def update
@@ -16,11 +17,22 @@ def index
 end
 
 def create
-    render text: params[:team].inspect
+    @team = Team.new(team_params)
+    @team.save
+    redirect_to @team
+
+
+    #debugging
+    #render text: params[:team].inspect
 end
 
 def destroy
 end
 
+
+private
+ def team_params
+   params.require(:team).permit(:name, :size, :email, :agreed)
+ end
 
 end
