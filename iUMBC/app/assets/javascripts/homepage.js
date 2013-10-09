@@ -6,7 +6,7 @@
 		$('#content').html($('.' + display).html());
 	};
 
-	
+
 	setNavHandler = function () {
 		$('.nav-item').hover( function() {
 			var $this = $(this),
@@ -26,3 +26,4 @@
 		setNavHandler();
 		$('body').addClass('ready');
 	});
+	
