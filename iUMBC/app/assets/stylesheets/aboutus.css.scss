@@ -1,0 +1,143 @@
+	body {
+		font-family:Comic Sans, Arial, sans-serif;
+		-webkit-transition:opacity 1500ms 0ms;
+		-moz-transition:opacity 1500ms 0ms;
+		transition:opacity 1500ms 0ms;
+		opacity:0;
+	}
+	.ready {
+		opacity:1;
+	}
+	section {
+		width:100%;
+	}
+	#hero-pic {
+		height:280px;
+		width:100%;
+	}
+	#navbar {
+		border-spacing:0;
+		width:100%;
+		}
+	.nav-item {
+		padding:0;
+		width:33%;
+	}
+	.sub-nav {
+		position:absolute;
+		display:none;
+	}
+	.sn-item {
+		text-transform:uppercase;
+		list-style-type:none;
+		background:#333333;
+		text-align:center;
+		line-height:2.5em;
+		font-weight:bold;
+		font-size:.75em;
+		color:white;
+	}
+	.sn1:hover {
+		font-weight:bolder;
+		background:#0a67a3;
+	}
+	.sn2:hover {
+		font-weight:bolder;
+		background:#0a67a3;
+	}
+	.sn3:hover {
+		font-weight:bolder;
+		background:#0a67a3;
+	}
+	.section {
+		padding:25px;
+		display:none;
+	}
+	#content {
+		width:96%;
+		padding:2%;
+	}
+
+	/* Home */
+	/* Sponsors */
+	/* Become */
+	/* About */
+	#innovate {
+		/*display:table-row;*/
+		height:250px;
+		width:100%;
+	}
+	#innovate-text {
+		display:table-cell;
+		border-radius:15px;
+		background:#5ccccc;
+		padding:2%;
+		width:46%;
+	}
+	#innovate-pic {
+		vertical-align:middle;
+		display:table-cell;
+		text-align:center;
+		/*font-size:50px;*/
+		/*padding:2% 7%;*/
+		width: 250px;
+	}
+	#picture-slider {
+		position:absolute;
+		text-align:center;
+		overflow:auto;
+		color:black;
+		width:100px;
+		height:100px;
+		padding:0;
+		border:0;
+	}
+	.arrow {
+		-webkit-transition: all 250ms 0ms;
+		-moz-transition: all 250ms 0ms;
+		transition: all 250ms 0ms;
+		vertical-align:middle;
+		border-radius:15px;
+		background:black;
+		color:white;
+		width:30px;
+	}
+	.arrow:hover {
+		background:#ff4100;
+	}
+	.selector {
+		-webkit-transition: all 250ms 0ms;
+		-moz-transition: all 250ms 0ms;
+		transition: all 250ms 0ms;
+		border:2px solid green;
+		display:inline-block;
+		border-radius:5px;
+		background:white;
+		margin-left:5px;
+		color:white;
+		height:5px;
+		font-size:0;
+		width:5px;
+	}
+	.selector:hover {
+		background:green;
+		color:green;
+	}
+	.selected {
+		background:green;
+	}
+	#members {
+		display:table-row;
+	}
+	.member {
+		display:table-cell;
+		width:33%;
+	}
+	.member-pic {
+		border-radius:15px;
+		height:160px;
+	}
+	.space {
+		color:white;
+		height:50px;
+	}
