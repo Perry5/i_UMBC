@@ -1,0 +1,38 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#greeting{
+	text-align: center;
+
+}
+.nav-bar-border{
+
+	background-color: black;
+	     background: url(campus_50.jpg) no-repeat center center fixed; 
+	     -webkit-background-size: 100%;
+	     -moz-background-size: 100%;
+             -o-background-size: 100%;
+			         background-size: 100%;
+				      -webkit-background-size: cover;
+				           -moz-background-size: cover;
+					        -o-background-size: cover;
+						     background-size: cover;
+
+	text-align: center;
+	color: white;
+}
+	.nav-bar-pic{
+		width: 600px;
+	}
+
+.nav-bar-date{
+	font-family: helvetica;
+	font-size: 30px;
+	position: relative;	
+	bottom: 120px;
+	margin: 0 350px;
+}
+
+

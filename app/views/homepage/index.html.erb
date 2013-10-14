@@ -1,0 +1,61 @@
+<html>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<body>
+		
+
+	<section id="hero">
+		<!-- <img id="hero-pic" src="/assets/umbc.jpg"> -->
+		<table id="navbar">
+			<td id="home" class="nav-item">
+				<li id="home" class="sn-item sn1">Home</li>
+			</td>
+			<td class="nav-item">
+				 <li id="sponsors" class="sn-item sn2">Sponsors</li> 
+			</td>
+			<td id="about" class="nav-item">
+				<li id="about" class="sn-item sn3">About Us</li>
+				<div class="sub-nav">
+					<li id="contact" class="sn-item sn1">Contact Us</li>
+				</div>
+			</td>
+		</table>
+	</section>
+
+
+	<section id="top">
+		<div class="nav-bar-border">
+			
+			<img class="nav-bar-pic" src="/assets/hackumbc-01.png"> 
+
+			<div class="nav-bar-date"> December 6 - December 7, 2013 </div>
+		</div>
+		</section>
+		<section id="content"></section>
+
+		<!-- Hidden content sections -->
+		<section class="home section">
+			<%= render "home.html.erb" %>
+		</section>
+
+
+		<section class="sponsors section">
+			<%= render "our_sponsors.html.erb" %>
+		</section>
+
+
+		<!-- <section class="current section">Current</section>
+		<section class="become section">Become</section> -->
+
+
+		<section class="about section">	
+			<%= render "about_us.html.erb" %>
+		</section>
+
+
+		<section class="contact section">
+			<%= render "contact_us.html.erb" %>
+		</section>
+
+	</body>
+</html>
