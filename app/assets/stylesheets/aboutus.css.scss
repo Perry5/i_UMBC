@@ -3,7 +3,7 @@
 		-webkit-transition:opacity 1500ms 0ms;
 		-moz-transition:opacity 1500ms 0ms;
 		transition:opacity 1500ms 0ms;
-		opacity:0;
+		opacity:1;
 	}
 	.ready {
 		opacity:1;
@@ -41,21 +41,11 @@
 		font-weight:bolder;
 		background:#0a67a3;
 	}
-	.sn2:hover {
-		font-weight:bolder;
-		background:#0a67a3;
-	}
-	.sn3:hover {
-		font-weight:bolder;
-		background:#0a67a3;
-	}
 	.section {
-		padding:25px;
-		display:none;
-	}
-	#content {
-		width:96%;
-		padding:2%;
+		max-width:1000px;
+		margin:0 auto;		
+		padding:5%;
+		width:90%;
 	}
 
 	/* Home */
@@ -63,81 +53,66 @@
 	/* Become */
 	/* About */
 	#innovate {
-		/*display:table-row;*/
-		height:250px;
+		text-align:center;
+	}
+	#innovate-text{
+		border-radius:15px;
+		background:#152732;
+		font-weight:bolder;
+		padding:5% 2%;
+		color:white;
 		width:100%;
 	}
-	#innovate-text {
-		display:table-cell;
-		border-radius:0px;
-		background:#C5E9F1;
-		padding:2%;
-		width:46%;
+	#innovate-text a {
+		text-decoration:none;
+		color:#ffdd00;
+	}
+	#innovate-text a:hover {
+		text-decoration:underline;
 	}
 	#innovate-pic {
-		vertical-align:middle;
-		display:table-cell;
-		text-align:center;
-		/*font-size:50px;*/
-		/*padding:2% 7%;*/
-		width: 250px;
+		margin:0 auto;
+		width:90%;
 	}
-	#picture-slider {
-		position:absolute;
-		text-align:center;
-		overflow:auto;
-		color:black;
-		width:100px;
-		height:100px;
-		padding:0;
-		border:0;
+	#inno {
+		max-width:1000px;
+		width:100%;
 	}
-	.arrow {
-		-webkit-transition: all 250ms 0ms;
-		-moz-transition: all 250ms 0ms;
-		transition: all 250ms 0ms;
-		vertical-align:middle;
+	#contact {
 		border-radius:15px;
-		background:black;
+		background:#152732;
+		text-align:center;
+		line-height:2em;
+		border:#152732;
 		color:white;
-		width:30px;
 	}
-	.arrow:hover {
-		background:#ff4100;
-	}
-	.selector {
-		-webkit-transition: all 250ms 0ms;
-		-moz-transition: all 250ms 0ms;
-		transition: all 250ms 0ms;
-		border:2px solid green;
-		display:inline-block;
-		border-radius:5px;
-		background:white;
-		margin-left:5px;
+	#contact a {
+		text-decoration:none;
+		font-weight:bolder;
+		font-style:italic;
 		color:white;
-		height:5px;
-		font-size:0;
-		width:5px;
-	}
-	.selector:hover {
-		background:green;
-		color:green;
-	}
-	.selected {
-		background:green;
-	}
-	#members {
-		display:table-row;
 	}
 	.member {
-		display:table-cell;
-		width:33%;
+		padding:5% 0;
 	}
-	.member-pic {
-		border-radius:15px;
-		height:160px;
+	.pic {
+		text-align:center;
 	}
-	.space {
+	.pic img{
+		display:inline-block;
 		color:white;
-		height:50px;
+		width:200px;
 	}
+	.desc {
+		display:inline-block;
+		font-weight:bolder;	
+		padding:5% 2%;
+		font-size:1em;
+		color:black;
+		width:55%;
+	}
+	.name {
+		font-style:italic;
+		font-size:1.5em;
+	}
+		
