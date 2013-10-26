@@ -1,0 +1,66 @@
+
+#greeting{
+	text-align: center;
+
+}
+
+.nav-bar-border{
+	
+
+   	 background-color: black;
+	 background: url(../img/campus_50.jpg) no-repeat center center fixed;
+	 -webkit-background-size: 100%;
+	 -moz-background-size: 100%;
+         -o-background-size: 100%;
+         background-size: 100%;
+         -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+         text-align: center;
+         color: white;
+}
+
+.nav-bar-pic{
+	width: 600px;
+}
+
+.nav-bar-date{
+	font-family: helvetica;
+	font-size: 30px;
+	position: relative;	
+	bottom: 120px;
+	margin: 0 350px;
+}
+
+
+.trans-band{
+    
+    -webkit-filter: blur(6px);
+    background-position: 0 (-10em  include filter(blur(10px));
+    opacity: 0.8;
+    padding: 4px * 2;
+    top: -(4px * 2);
+    left: -(4px * 2);
+    
+    
+    
+    
+    
+    
+}
+
+.back-image{
+    
+    
+    background-color: black;
+    background: url(../img/campus_50.jpg) no-repeat center center fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

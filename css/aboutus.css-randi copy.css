@@ -1,0 +1,121 @@
+	body {
+		font-family:Comic Sans, Arial, sans-serif;
+		-webkit-transition:opacity 1500ms 0ms;
+		-moz-transition:opacity 1500ms 0ms;
+		transition:opacity 1500ms 0ms;
+		opacity:1;
+	}
+	.ready {
+		opacity:1;
+	}
+	section {
+		width:100%;
+	}
+	#hero-pic {
+		height:280px;
+		width:100%;
+	}
+	#navbar {
+		border-spacing:0;
+		width:100%;
+		}
+	.nav-item {
+		padding:0;
+		width:33%;
+	}
+	.sub-nav {
+		position:absolute;
+		display:none;
+	}
+	.sn-item {
+		text-transform:uppercase;
+		list-style-type:none;
+		background:#333333;
+		text-align:center;
+		line-height:2.5em;
+		font-weight:bold;
+		font-size:.75em;
+		color:white;
+	}
+	.sn1:hover {
+		font-weight:bolder;
+		background:#0a67a3;
+	}
+	.section {
+		max-width:1000px;
+		margin:0 auto;		
+		padding:5%;
+		width:90%;
+	}
+
+	/* Home */
+	/* Sponsors */
+	/* Become */
+	/* About */
+
+
+	#innovate {
+		text-align:center;
+	}
+	#innovate-text{
+		border-radius:15px;
+		background:#152732;
+		font-weight:bolder;
+		padding:5% 2%;
+		color:white;
+		width:100%;
+	}
+	#innovate-text a {
+		text-decoration:none;
+		color:#ffdd00;
+	}
+	#innovate-text a:hover {
+		text-decoration:underline;
+	}
+	#innovate-pic {
+		margin:0 auto;
+		width:90%;
+	}
+	#inno {
+		max-width:1000px;
+		width:100%;
+	}
+	#contact {
+		border-radius:15px;
+		background:#152732;
+		text-align:center;
+		line-height:2em;
+		border:#152732;
+		color:white;
+	}
+	#contact a {
+		text-decoration:none;
+		font-weight:bolder;
+		font-style:italic;
+		color:white;
+	}
+	.member {
+		padding:5% 0;
+	}
+	.pic {
+		text-align:center;
+	}
+	.pic img{
+		display:inline-block;
+		color:white;
+		width:200px;
+	}
+	.desc {
+		display:inline-block;
+		font-weight:bolder;	
+		padding:5% 2%;
+		font-size:1em;
+		color:black;
+		width:55%;
+	}
+	.name {
+		font-style:italic;
+		font-size:1.5em;
+	}
+
+		

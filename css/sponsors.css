@@ -1,0 +1,81 @@
+.title-bar {
+  text-align: center;
+  font-size: 40px;
+  font-family: helvetica; }
+
+.platinum #first-platinum-logo {
+  text-align: center;
+  margin-top: 50px; }
+
+.gold #first-gold-logo {
+  display: inline-block;
+  margin-right: 30px;
+  margin: 20px 50px; }
+.gold #second-gold-logo {
+  display: inline-block;
+  background-color: white;
+  margin-left: 100px; }
+.gold #third-gold-logo {
+  display: inline-block;
+  background-color: white;
+  margin-left: 100px; }
+
+.silver #first-silver-logo {
+  display: inline-block;
+  margin-right: 30px;
+  margin: 20px 50px; }
+.silver #second-silver-logo {
+  display: inline-block;
+  background-color: white;
+  margin-left: 150px; }
+.silver #third-silver-logo {
+  display: inline-block;
+  background-color: white;
+  margin-left: 150px; }
+.silver #fourth-silver-logo {
+  display: inline-block;
+  background-color: white;
+  margin-left: 150px; }
+
+.bronze #first-bronze-logo {
+  display: inline-block;
+  margin-right: 30px;
+  margin: 20px 50px; }
+.bronze #second-bronze-logo {
+  display: inline-block;
+  background-color: white;
+  margin-left: 150px; }
+.bronze #third-bronze-logo {
+  display: inline-block;
+  background-color: white;
+  margin-left: 150px; }
+.bronze #fourth-bronze-logo {
+  display: inline-block;
+  background-color: white;
+  margin-left: 150px; }
+.bronze #fifth-bronze-logo {
+  display: inline-block;
+  background-color: white;
+  margin-left: 150px; }
+
+.botton-text {
+  text-decoration: none !important;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px; }
+
+.moveMe {
+  position: relative;
+  top: 0;
+  -webkit-transition: top 1s;
+  -moz-transition: top 2s;
+  -o-transition: top 2s; }
+
+.moveMe:hover {
+  top: 10px;
+  -webkit-transition: top 0.3s;
+  -moz-transition: top 0.3s;
+  -o-transition: top 0.3s; }
+
+hr {
+  margin: 20px 50px; }

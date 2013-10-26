@@ -1,0 +1,74 @@
+
+	/* Home */
+	/* Sponsors */
+	/* Become */
+	/* About */
+
+
+	#innovate {
+		text-align:center;
+	}
+	#innovate-text{
+		background:#152732;
+		font-weight:bolder;
+		padding:5% 5%;
+		color:white;
+		width:90%;
+	}
+	#innovate-text a {
+		text-decoration:none;
+		color:#ffdd00;
+	}
+	#innovate-text a:hover {
+		text-decoration:underline;
+	}
+	#innovate-pic {
+		margin:0 auto;
+		width:90%;
+	}
+	#inno {
+		max-width:1000px;
+		width:100%;
+	}
+
+
+#grey-desc{
+    background:#F5F5F5;    
+    
+}
+
+#dgrey-desc{
+    background:#E8E8E8;
+    
+}
+	.member {
+		padding:5% 0;
+	}
+	.pic {
+		text-align:center;
+	}
+	.pic img{
+		display:inline-block;
+		color:white;
+		width:200px;
+	}
+	.desc {
+		display:inline-block;
+		font-weight:bolder;	
+		padding:5% 2%;
+		font-size:1em;
+		color:black;
+		width:55%;
+	}
+	.name {
+		font-style:italic;
+		font-size:1.5em;
+	}
+
+
+ .intro {
+     margin:0 0;
+     padding:0%;
+     width:100%;
+ }
+
