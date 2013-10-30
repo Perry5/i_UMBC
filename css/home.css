@@ -22,9 +22,12 @@ body {
 }
 
 .navbar-container{
-	background: white;
+	background: #f5f6f5;
 	position: fixed;
 	width: 100%;
+	opacity: .85;
+	z-index: 3;
+
 }
 
 .nav-bar-border{	
@@ -136,6 +139,14 @@ body {
 	color:brown;
 	position:relative;
 }
+
+.header-link:active {
+	top:2px;
+	color:brown;
+	position:relative;
+}
+
+
 
 #title {
 	height:50px;
