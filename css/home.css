@@ -4,6 +4,14 @@ body {
 	font-family:sans-serif;
 }
 
+iframe{
+	width: 80px;
+	height: 30px;
+}
+
+.social-media-buttons{
+}
+
 #body-content {	
 	opacity:0;
 	transition: opacity 400ms ease-in;
@@ -62,8 +70,8 @@ body {
 	font-size: 1.4em;
 	text-transform: uppercase;
 	width: 200px;
-	background: brown;
-	border-radius: 50px;
+	background: #152732;
+	border-radius: 6px;
 	color: #fff;
 	padding: 22px 30px;
 	display: block;
@@ -76,7 +84,7 @@ body {
 
 .register-button:hover{
 	position:relative;
-	background: green;
+	background: #665A4A;
 }
 
 .sponsor-button{
@@ -84,8 +92,8 @@ body {
 	font-size: 1.4em;
 	text-transform: uppercase;
 	width: 200px;
-	background: green;
-	border-radius: 50px;
+	background: #152732;
+	border-radius: 6px;
 	color: #fff;
 	padding: 22px 30px;
 	display: block;
@@ -97,7 +105,7 @@ body {
 }
 
 .sponsor-button:hover{
-	background: brown;
+	background: #665A4A;
 }
 
 
@@ -139,13 +147,6 @@ body {
 	color:brown;
 	position:relative;
 }
-
-.header-link:active {
-	top:2px;
-	color:brown;
-	position:relative;
-}
-
 
 
 #title {

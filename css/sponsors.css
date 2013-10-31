@@ -9,12 +9,32 @@
   margin-top: 50px; 
   filter: gray;
   -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
 }
 
 #first-platinum-logo:hover{
   filter: none;
   -webkit-filter:grayscale(0);
+  -moz-filter:grayscale(0);
 }
+
+.platinum #second-platinum-logo {
+  text-align: center;
+  margin-top: 50px; 
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
+
+#second-platinum-logo:hover{
+  filter: none;
+  -webkit-filter:grayscale(0);
+  -moz-filter:grayscale(0);
+}
+
+
 
 
 .gold #first-gold-logo {
@@ -23,11 +43,14 @@
   margin: 20px 50px; 
   filter: gray;
   -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
 }
 
 #first-gold-logo:hover{
   filter: none;
   -webkit-filter:grayscale(0);
+  -moz-filter:grayscale(0);
 }
 
 
@@ -35,12 +58,32 @@
   display: inline-block;
   background-color: white;
   margin-left: 100px; 
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
+
+#second-gold-logo:hover{
+  filter: none;
+  -webkit-filter:grayscale(0);
+  -moz-filter:grayscale(0);
 }
 
 .gold #third-gold-logo {
   display: inline-block;
   background-color: white;
   margin-left: 100px; 
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
+
+#third-gold-logo:hover{
+  filter: none;
+  -webkit-filter:grayscale(0);
+  -moz-filter:grayscale(0);
 }
 
 .silver #first-silver-logo {
