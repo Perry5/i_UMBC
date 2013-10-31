@@ -58,7 +58,7 @@ iframe{
 }
 
 .nav-bar-date{
-	font-family: helvetica;
+	font-family: 'quicksand', sans-serif, arial;
 	font-size: 30px;
 	position: relative;	
 	bottom: 120px;
@@ -66,7 +66,7 @@ iframe{
 }
 
 .register-button{
-	font-family: sans-serif;
+	font-family: 'quicksand', sans-serif, arial;
 	font-size: 1.4em;
 	text-transform: uppercase;
 	width: 200px;
@@ -109,11 +109,63 @@ iframe{
 }
 
 
-.body-text{
-	text-align: center;
+.first-description{
+	position: relative;
+
 }
 
 
+.second-description{
+	position: relative;
+	background-color: #152732;
+
+}
+
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%
+}
+
+
+h3{
+	color: #152732;
+	font-size: 5.7em;
+	text-align: center;
+	margin: 0 auto;
+	width: 800px;
+	font-weight: bold;
+	line-height: 1.2em;
+	letter-spacing: -.05em;
+	font-family: 'quicksand', sans-serif, arial;
+}
+
+
+.food-info{
+	color: #152732;
+	font-size: 1.7em;
+	text-align: center;
+	margin: 0 auto;
+	width: 800px;
+	font-weight: bold;
+	line-height: 1.2em;
+	letter-spacing: -.05em;
+	font-family: 'quicksand', sans-serif, arial;
+}
+
+.faq-info{
+	color: #fff;
+	font-size: 1.7em;
+	text-align: center;
+	margin: 0 auto;
+	width: 800px;
+	font-weight: bold;
+	line-height: 1.2em;
+	letter-spacing: -.05em;
+	font-family: 'quicksand', sans-serif, arial;
+}
 
 
 
