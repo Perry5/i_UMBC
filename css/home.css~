@@ -340,7 +340,7 @@ footer{
 	
 	.narrow-links {
 		display:inherit;
-	}
+	{
 	
 	#title {
 		font-size:20px;

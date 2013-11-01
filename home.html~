@@ -16,12 +16,12 @@
 
 	<!-- Navigation bar -->
 	<nav class="nav-bar">
-		<a href="#" class="header-link">Home</a> |
-		<a href="sponsors.html" class="header-link">Sponsors</a> |
+		<a href="#" class="header-link">Home</a> &#9643;
+		<a href="sponsors.html" class="header-link">Sponsors</a> &#9643;
 		<a href="aboutus.html" class="header-link">About Us</a>
 		
 		<div class="narrow-links">
-			<a href="#" class="header-link"> Register </a> |
+			<a href="#" class="header-link"> Register </a> &#9643;
 			<a href="docs/hackUMBC_sponsorship_packet.pdf" class="header-link"> Sponsor Us </a>
 		</div>
 	</nav>

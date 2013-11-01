@@ -16,11 +16,6 @@
 		<a href="home.html" class="header-link">Home</a> |
 		<a href="sponsors.html" class="header-link">Sponsors</a> |
 		<a href="#" class="header-link">About Us</a>
-		
-		<div class="narrow-links">
-			<a href="#" class="header-link"> Register </a> |
-			<a href="docs/hackUMBC_sponsorship_packet.pdf" class="header-link"> Sponsor </a>
-		</div>
 	</nav>
 
 
