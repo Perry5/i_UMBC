@@ -29,8 +29,8 @@ iframe{
 	padding:15px;
 	font-size:24px;
 	text-align:center;
-	line-height: 40px;
-	height: 40px;
+	line-height: 30px;
+	height: 30px;
 	background: white;
 	position:fixed;
 	width: 100%;
@@ -71,19 +71,16 @@ iframe{
 	text-align:center;
 }
 .nav-bar-date {
-	text-decoration:none;
 	color:#ffffff;
 	font-family: 'quicksand', sans-serif, arial;
 	font-size: 30px;
-}
-.nav-bar-date:hover {
-	text-decoration:underline;
 }
 
 .button-wrapper {
 	margin:50px auto;
 	width:100%;
 }
+
 .register-button{
 	-webkit-transition: all 500ms ease-in-out;
 	-moz-transition: all 500ms ease-in-out;
@@ -394,6 +391,7 @@ footer{
 	
 	.nav-bar {
 		line-height:20px;
+		height:40px;
 	}
 	
 	.button-wrapper {

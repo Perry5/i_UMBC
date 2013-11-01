@@ -29,8 +29,8 @@ iframe{
 	padding:15px;
 	font-size:24px;
 	text-align:center;
-	line-height: 40px;
-	height: 40px;
+	line-height: 30px;
+	height: 30px;
 	background: white;
 	position:fixed;
 	width: 100%;
@@ -71,19 +71,16 @@ iframe{
 	text-align:center;
 }
 .nav-bar-date {
-	text-decoration:none;
 	color:#ffffff;
 	font-family: 'quicksand', sans-serif, arial;
 	font-size: 30px;
-}
-.nav-bar-date:hover {
-	text-decoration:underline;
 }
 
 .button-wrapper {
 	margin:50px auto;
 	width:100%;
 }
+
 .register-button{
 	-webkit-transition: all 500ms ease-in-out;
 	-moz-transition: all 500ms ease-in-out;
@@ -264,8 +261,44 @@ h3{
 footer{
 	font-family: 'quicksand', sans-serif;
 	text-transform: uppercase;
-	background: #e6e6e6;
+	background: #fff;
 	padding: 30px 0;
+}
+
+.footer-container{
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	font-family: 'quicksand', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	text-decoration: none;
+}
+
+#footer-social{
+	float: right;
+}
+
+#footer-p{
+	font-weight: 900;
+	float: left;
+	margin: -11px 16px 0 0;
+	margin-right: 200px;
+	margin-left: -60px;
+}
+
+.footer-ul{
+	/*width: 20px;*/
+	filter: gray;
+  	-webkit-filter: grayscale(1);
+  	-moz-filter: grayscale(1);
+  	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
+
+.footer-ul:hover{
+	filter: none;
+	-webkit-filter:grayscale(0);
+	-moz-filter:grayscale(0);
 }
 
 .body-section {
@@ -340,7 +373,7 @@ footer{
 	
 	.narrow-links {
 		display:inherit;
-	{
+	}
 	
 	#title {
 		font-size:20px;
