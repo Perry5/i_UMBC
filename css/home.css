@@ -140,8 +140,9 @@ iframe{
 
 
 .first-description{
-	clear:both;
 	padding: 75px 0;
+	width:100%;
+	overflow:hidden;
 
 }
 
@@ -150,6 +151,8 @@ iframe{
 	background-color: #152732;
 	color:white;
 	font-family: 'quicksand', sans-serif, arial;
+	width:100%;
+	overflow:hidden;
 
 }
 
@@ -194,7 +197,7 @@ h3{
 .border-line {
 	content:".";
 	border-bottom: 1px solid grey;
-	width:80%;
+	width:90%;
 	max-width:1000px;
 	margin:0 auto;
 }
@@ -217,7 +220,7 @@ h3{
 
 .faq-info-description {
 	color:white;
-	width:80%;
+	width:90%;
 	max-width:1000px;
 	margin:25px auto;
 	font-weight:bold;
@@ -225,15 +228,23 @@ h3{
 }
 
 .faq-info {
-	width:80%;
+	width:90%;
+	max-width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.faq-groups {
+	width:90%;
 	max-width:1000px;
 	margin:0 auto;
 }
 
 .faq-group {
+	display:inline-block;
 	vertical-align:top;
-	padding:15px;
-	width:33%;
+	padding:2%;
+	width:28%;
 }
 
 .faq-title {
@@ -297,6 +308,11 @@ footer{
 
 /* Code for phone screens */
 @media screen and (max-width:700px) {
+	.faq-group {
+		width:43%;
+	}	
+}
+@media screen and (max-width:500px) {
 	.body-section {
 		padding:5px;
 	}
@@ -324,5 +340,28 @@ footer{
 	
 	#body-hero {
 		display:inherit;
+	}
+	
+	.faq-group {
+		width:90%;
+		padding:0;
+	}
+	
+	.register-button {
+		text-align:center;
+		float:none;
+		margin:15px auto;
+	}
+	.sponsor-button {
+		text-align:center;
+		float:none;
+		margin:15px auto;
+	}
+	.register-button:hover {
+		width:150px;
+	}
+	
+	.sponsor-button:hover {
+		width:150px;
 	}
 }
