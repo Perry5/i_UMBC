@@ -1,19 +1,7 @@
 $('body').ready( function() {
 		$('#body-content').css('opacity', '1');
-		setNavHandler();
 	}
 );
-
-setNavHandler = function () {
-	$(window).scroll( function() {
-		var $navbar = $('.nav-bar');
-		if ($(window).scrollTop() > $navbar.height()) {
-			$navbar.css('position', 'fixed');
-		} else {
-			$navbar.css('position', 'inherit');
-		}
-	});
-};
 
 
 positionFooter(); 

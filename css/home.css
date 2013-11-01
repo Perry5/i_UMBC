@@ -32,6 +32,7 @@ iframe{
 	line-height: 40px;
 	height: 40px;
 	background: white;
+	position:fixed;
 	width: 100%;
 	z-index: 3;
 	border-bottom: 2px solid grey;
@@ -51,14 +52,18 @@ iframe{
 	text-align:center;
 	color: white;
 	overflow:hidden;
+	padding:50px;
+	padding-bottom:25px;
 }
 
 .nav-bar-pic{
+	margin:65px auto 0 auto;
 	width: 55%;
 	max-width: 650px;
 }
 
 .nav-bar-date-wrapper {
+	margin:15px auto;
 	text-align:center;
 }
 .nav-bar-date {
@@ -71,6 +76,10 @@ iframe{
 	text-decoration:underline;
 }
 
+.button-wrapper {
+	margin:50px auto;
+	width:100%;
+}
 .register-button{
 	-webkit-transition: all 500ms ease-in-out;
 	-moz-transition: all 500ms ease-in-out;
@@ -78,7 +87,9 @@ iframe{
 	font-family: 'quicksand', sans-serif, arial;
 	font-size: 1.4em;
 	text-transform: uppercase;
-	width: 230px;
+	width: 150px;
+	height:25px;
+	line-height:25px;
 	background: #152732;
 	border-radius: 10px;
 	color: #fff;
@@ -86,15 +97,16 @@ iframe{
 	display: block;
 	margin: 0 auto;
 	text-decoration: none;
-	text-align: center;
+	text-align: right;
 	float: left;
-	margin-top: -50px;
-	margin-left: -30px;
+	margin-left: -100px;
 }
 
 .register-button:hover{
 	background: #E59400;
 	font-weight:bold;
+	border-radius:0;
+	width:250px;
 }
 
 .sponsor-button{
@@ -104,7 +116,9 @@ iframe{
 	font-family: sans-serif;
 	font-size: 1.4em;
 	text-transform: uppercase;
-	width: 230px;
+	width: 150px;
+	height:25px;
+	line-height:25px;
 	background: #152732;
 	border-radius: 10px;
 	color: #fff;
@@ -112,15 +126,16 @@ iframe{
 	display: block;
 	margin: 0 auto;
 	text-decoration: none;
-	text-align: center;
+	text-align:left;
 	float: right;
-	margin-top: -50px;
-	margin-right: -30px;
+	margin-right: -100px;
 }
 
 .sponsor-button:hover{
 	background: #E59400;
 	font-weight:bold;
+	border-radius:0;
+	width:250px;
 }
 
 
