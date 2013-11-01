@@ -110,6 +110,13 @@ iframe{
 	width:250px;
 }
 
+
+.register-note{
+	font-weight: bold;
+	font-family: 'quicksand', sans-serif;
+	font-size: 1.2em;
+}
+
 .sponsor-button{
 	-webkit-transition: all 500ms ease-in-out;
 	-moz-transition: all 500ms ease-in-out;
