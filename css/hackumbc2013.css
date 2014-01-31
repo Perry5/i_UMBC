@@ -1,0 +1,378 @@
+/*
+	Campus pic instead of blur
+*/
+body {
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+
+.facebook{
+	width: 80px;
+	height: 30px;
+}
+
+.social-media-buttons{
+}
+
+#body-content {	
+	opacity:0;
+	transition: opacity 500ms ease-in;
+	-moz-transition: opacity 500ms ease-in;
+	-webkit-transition: opacity 500ms ease-in;
+}
+
+.nav-bar {
+	-webkit-transition:all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+	padding:15px;
+	font-size:24px;
+	text-align:center;
+	line-height: 30px;
+	height: 30px;
+	background: white;
+	position:fixed;
+	width: 100%;
+	z-index: 3;
+	border-bottom: 2px solid grey;
+	opacity:.85;
+}
+
+.narrow-links {
+	display:none;
+}
+
+.nav-bar-border{	
+	background: white url(../img/campus_50.jpg) no-repeat center center fixed;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align:center;
+	color: white;
+	overflow:hidden;
+	padding:50px;
+	padding-bottom:25px;
+}
+
+.nav-bar-pic{
+	margin:65px auto 0 auto;
+	width: 55%;
+	max-width: 650px;
+}
+
+.nav-bar-date-wrapper {
+	margin:15px auto;
+	text-align:center;
+}
+.nav-bar-date {
+	color:#ffffff;
+	font-family: 'quicksand', sans-serif, arial;
+	font-size: 30px;
+}
+
+.button-wrapper {
+	margin:50px auto;
+	width:100%;
+}
+
+.register-button{
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+	font-family: 'quicksand', sans-serif, arial;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	width: 150px;
+	height:25px;
+	line-height:25px;
+	background: #152732;
+	border-radius: 10px;
+	color: #fff;
+	padding: 22px 30px;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: right;
+	float: left;
+	margin-left: -100px;
+}
+
+.register-button:hover{
+	background: #E59400;
+	font-weight:bold;
+	border-radius:0;
+	width:250px;
+}
+
+
+.register-note{
+	font-weight: bold;
+	font-family: 'quicksand', sans-serif;
+	font-size: 1.2em;
+}
+
+.sponsor-button{
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+	font-family: sans-serif;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	width: 150px;
+	height:25px;
+	line-height:25px;
+	background: #152732;
+	border-radius: 10px;
+	color: #fff;
+	padding: 22px 30px;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align:left;
+	float: right;
+	margin-right: -100px;
+}
+
+.sponsor-button:hover{
+	background: #E59400;
+	font-weight:bold;
+	border-radius:0;
+	width:250px;
+}
+
+
+.description{
+	padding: 75px 0;
+	width:100%;
+	overflow:hidden;
+
+}
+
+.blue{
+	padding: 75px 0;
+	background-color: #152732;
+	color:white;
+	font-family: 'quicksand', sans-serif, arial;
+	width:100%;
+	overflow:hidden;
+
+}
+
+em {
+	color:#E59400;
+	font-style:normal;
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	height: 100%
+}
+
+.title{
+	font-size: 1.8em;
+	text-align:center;
+	margin-top:30px;
+	font-style:italic;
+	font-weight:bolder;
+}
+
+h3{
+	color: #152732;
+	font-size: 5.7em;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+	line-height: 1.2em;
+	letter-spacing: -.05em;
+	font-family: 'quicksand', sans-serif, arial;
+	text-transform:uppercase;
+}
+
+h4{
+	font-size: 1.8em;
+	text-align:center;
+	margin:0 auto;
+	margin-top:30px;
+	font-weight:bold;
+	color:#152732;
+	letter-spacing:-.05em;
+}
+
+footer{
+	font-family: 'quicksand', sans-serif;
+	text-transform: uppercase;
+	background: #fff;
+	padding: 30px 0;
+}
+
+.footer-container{
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	font-family: 'quicksand', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	text-decoration: none;
+}
+
+#footer-social{
+	float: right;
+}
+
+#footer-p{
+	font-weight: 900;
+	float: left;
+	margin: -11px 0 0;
+	margin-right: 0px;
+	margin-left: -60px;
+}
+
+.footer-ul{
+	/*width: 20px;*/
+	filter: gray;
+  	-webkit-filter: grayscale(1);
+  	-moz-filter: grayscale(1);
+  	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
+
+.footer-ul:hover{
+	filter: none;
+	-webkit-filter:grayscale(0);
+	-moz-filter:grayscale(0);
+}
+
+.body-section {
+	width:100%;
+	padding:15px;
+	font-size:10px;
+	border-bottom: 2px solid grey;
+}
+
+
+
+.header-link {
+	color:black;
+	font-size:16px;
+	text-decoration:none;
+	text-transform:uppercase;
+	transition:position 250ms ease-in;
+	-moz-transition:position 250ms ease-in;
+	-webkit-transition:position 250ms ease-in;
+}
+.header-link:hover {
+	top:2px;
+	color:#E59400;
+	position:relative;
+}
+
+
+#title {
+	height:50px;
+	font-size:40px;
+	line-height:50px;
+	text-transform:uppercase;
+}
+
+#title-logo {
+	top:-115px;
+	width:175px;
+	margin:0 25px;
+	position:relative;
+	vertical-align:text-top;
+}
+
+/* Code for phone screens */
+@media screen and (max-width:700px) {
+	h3 {
+		font-size:50px;
+	}
+	
+	.food-info {
+		font-size:24px;
+	}
+	
+	.faq-group {
+		width:43%;
+	}	
+}
+@media screen and (max-width:500px) {
+	.body-section {
+		padding:5px;
+	}
+	
+	#body-header {
+		height:40px;
+		font-size:14px;
+		line-height:40px;
+		text-align:center;
+	}
+	
+	.header-link {
+		font-size:14px;
+	}
+	
+	.narrow-links {
+		display:inherit;
+	}
+	
+	#title {
+		font-size:20px;
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	#title-logo {
+		display:none;
+	}
+	
+	#body-hero {
+		display:inherit;
+	}
+	
+	.nav-bar {
+		line-height:20px;
+		height:40px;
+	}
+	
+	.button-wrapper {
+		display:none;
+	}
+	
+	.nav-bar-date {
+		font-size:20px;
+	}
+	
+	.nav-bar-pic {
+		width:100%;
+	}
+	
+	.faq-group {
+		width:90%;
+		padding:0;
+	}
+	
+	.register-button {
+		text-align:center;
+		float:none;
+		margin:15px auto;
+	}
+	.sponsor-button {
+		text-align:center;
+		float:none;
+		margin:15px auto;
+	}
+	.register-button:hover {
+		width:150px;
+	}
+	
+	.sponsor-button:hover {
+		width:150px;
+	}
+}
